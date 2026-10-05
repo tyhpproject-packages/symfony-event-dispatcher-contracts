@@ -1,0 +1,19 @@
+{
+    "name": "tyhpdef/symfony-event-dispatcher-contracts",
+    "description": "Tyhp type definitions for symfony/event-dispatcher-contracts 3.7.1.",
+    "type": "metapackage",
+    "license": "Apache-2.0",
+    "version": "3.7.1",
+    "keywords": [
+        "dev",
+        "static analysis"
+    ],
+    "require": {
+        "tyhpdef/symfony-event-dispatcher-contracts-impl": "~3.7.1.0"
+    },
+    "extra": {
+        "tyhp": {
+            "impl": "tyhpdef/symfony-event-dispatcher-contracts-impl"
+        }
+    }
+}
